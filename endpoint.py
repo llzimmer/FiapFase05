@@ -1,3 +1,4 @@
+#Inclusão da Tag V1.0
 from flask import Flask, request, json
 from joblib import load as load_joblib
 
