@@ -9,8 +9,6 @@ if __name__ == '__main__':
         
         msg = input("Digite sua frase: ")
 
-        print(type(msg))
-        
         vector = pipeline.named_steps.vectorizer.transform([msg])
         res = pipeline.named_steps.model.predict(vector)
         
