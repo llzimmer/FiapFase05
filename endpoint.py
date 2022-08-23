@@ -9,7 +9,7 @@ def process_json():
 
     data = json.loads(request.data)
 
-    pipeline = load_joblib("models/sentiments.joblib")
+    pipeline = load_joblib("models/sentiments-v2.joblib")
 
     msg = str(data['message'])
 
